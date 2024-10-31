@@ -1,0 +1,58 @@
+/* Fondo general de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+}
+
+/* Contenedor del formulario de login */
+.login-container {
+    background: #16213e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 320px;
+}
+
+/* Título del formulario */
+.login-container h2 {
+    color: #e94560;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #0f3460;
+    border-radius: 5px;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+}
+
+/* Cambio de color al hacer foco en el campo de entrada */
+input:focus {
+    border-color: #e94560;
+    outline: none;
+    background-color: #222f5b;
+}
+
+/* Botón de inicio de sesión */
+button {
+    width: 60%;
+    padding: 12px;
+    background-color: #e94560;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color
