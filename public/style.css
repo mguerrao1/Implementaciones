@@ -1,4 +1,4 @@
-/* Fondo general de la página */
+
 body {
     display: flex;
     justify-content: center;
@@ -6,13 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
-    color: #eaeaea;
+    background-color: #1a1a2e; 
+    color: #eaeaea; 
 }
 
-/* Contenedor del formulario de login */
+
 .login-container {
-    background: #16213e;
+    background: #16213e; 
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -20,13 +20,13 @@ body {
     width: 320px;
 }
 
-/* Título del formulario */
+
 .login-container h2 {
-    color: #e94560;
+    color: #e94560; 
     margin-bottom: 20px;
 }
 
-/* Campos de entrada */
+
 input {
     width: 90%;
     padding: 12px;
@@ -37,14 +37,14 @@ input {
     color: #eaeaea;
 }
 
-/* Cambio de color al hacer foco en el campo de entrada */
+
 input:focus {
     border-color: #e94560;
     outline: none;
     background-color: #222f5b;
 }
 
-/* Botón de inicio de sesión */
+
 button {
     width: 60%;
     padding: 12px;
@@ -55,4 +55,62 @@ button {
     cursor: pointer;
     font-weight: bold;
     font-size: 1em;
-    transition: background-color
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #d7374a;
+}
+
+
+#message {
+    color: #ff4d4d;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f3460, #0f3460); 
+    color: white; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.9); 
+    color: #333; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    width: 400px; 
+    margin: 20px; 
+}
+
+h1 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+
+h2 {
+    margin-bottom: 15px; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    margin: 10px 0; 
+}
